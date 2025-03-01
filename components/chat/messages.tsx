@@ -1,4 +1,4 @@
-import { DisplayMessage } from "@/types";
+iimport { DisplayMessage } from "@/types";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Formatting } from "./formatting";
@@ -9,7 +9,7 @@ import { AI_NAME } from "@/configuration/identity";
 function AILogo() {
   return (
     <div className="w-9 h-9">
-      <Image src="/ai-logo.png" alt={AI_NAME} width={36} height={36} />
+      <Image src="/Recipe Finder_logo.png" alt="Recipe Finder" width={36} height={36} />
     </div>
   );
 }
