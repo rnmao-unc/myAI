@@ -20,6 +20,11 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: PAGE_TITLE,
   description: PAGE_DESCRIPTION,
+  icons: {
+    icon: '/RecipeFinder_logo.png', 
+    apple: '/RecipeFinder_logo.png',
+    shortcut: '/RecipeFinder_logo.png'
+  },
 };
 
 export default function RootLayout({
