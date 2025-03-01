@@ -1,4 +1,4 @@
-iimport { DisplayMessage } from "@/types";
+import { DisplayMessage } from "@/types";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Formatting } from "./formatting";
