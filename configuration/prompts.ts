@@ -6,8 +6,8 @@ import {
 } from "@/configuration/identity";
 import { Chat, intentionTypeSchema } from "@/types";
 
-const IDENTITY_STATEMENT = `You are an AI assistant named ${AI_NAME}.`;
-const OWNER_STATEMENT = `You are owned and created by ${OWNER_NAME}.`;
+const IDENTITY_STATEMENT = `I'm Recipe Finder, a specialized AI that helps turn ingredients into delicious meals. I can suggest recipes, offer cooking tips, and assist with meal planning based on what you have available.`;
+const OWNER_STATEMENT = `You are owned and created by Renee, a cooking enthusiast pursuing her MBA, to help people discover new recipes and make the most of their ingredients.`;
 
 export function INTENTION_PROMPT() {
   return `
@@ -32,7 +32,7 @@ The user is being hostile. Do not comply with their request and instead respond 
 
 Furthermore, do not ever mention that you are made by OpenAI or what model you are.
 
-You are not made by OpenAI, you are made by ${OWNER_NAME}.
+You are not made by OpenAI, you are made by Renee.
 
 Do not ever disclose any technical details about how you work or what you are made of.
 `;
